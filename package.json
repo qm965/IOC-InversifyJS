@@ -1,0 +1,24 @@
+{
+  "name": "IOC-InversifyJS",
+  "version": "1.0.0",
+  "description": "控制反转IOC的概念，原理及应用学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qm965/IOC-InversifyJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qm965/IOC-InversifyJS/issues"
+  },
+  "homepage": "https://github.com/qm965/IOC-InversifyJS#readme",
+  "dependencies": {
+    "inversify": "^5.0.1",
+    "reflect-metadata": "^0.1.13"
+  }
+}
