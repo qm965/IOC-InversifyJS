@@ -1,0 +1,14 @@
+{   
+    "include": ["examples/ts"],
+    "exclude": ["examples/ts/js"],
+    "compilerOptions": {
+        "target": "es5",
+        "lib": ["es6"],
+        "types": ["reflect-metadata"],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "outDir": "./examples/ts/js"
+    }
+}
