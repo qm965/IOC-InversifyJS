@@ -14,6 +14,9 @@ import { TYPES } from "./types";
 
 // 要根据抽象生成实体了
 // 声明可注入，并将数据注入其中 Ninja
+// 申明都在inversify中的方法，inversify接管了对这个类的前置处理，可以对这个类做些处理，注入依赖等
+// 之所以使用@provide代替@injectable后不用bind了，应该是他已经做了这不
+// 具体得查看源码
 
 @injectable()
 class Katana implements Weapon {
